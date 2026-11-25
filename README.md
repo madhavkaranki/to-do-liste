@@ -1,6 +1,8 @@
 # to do liste
 
 
+var aufgaben = LadeAufgaben(sheet);     
+IEnumerable<Aufgabe> ergebnis = aufgaben; 
 
    else if (wahl == "6")
     {
